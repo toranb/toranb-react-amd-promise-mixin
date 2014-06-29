@@ -1,4 +1,4 @@
-define(["exports"], function(__exports__) {
+define([], function() {
     "use strict";
 
     var PromiseMixin = (function() {
@@ -21,5 +21,5 @@ define(["exports"], function(__exports__) {
         return mixin;
     })();
 
-    __exports__["default"] = PromiseMixin;
+    return PromiseMixin;
 });
