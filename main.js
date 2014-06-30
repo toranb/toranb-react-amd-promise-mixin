@@ -1,4 +1,4 @@
-define([], function() {
+define("promise-mixin", [], function() {
     "use strict";
 
     var PromiseMixin = (function() {
