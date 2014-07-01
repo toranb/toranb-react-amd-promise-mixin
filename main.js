@@ -20,6 +20,5 @@ define([], function() {
         }
         return mixin;
     })();
-
     return PromiseMixin;
 });
